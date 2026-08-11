@@ -528,7 +528,7 @@ def write(text = "Hello, World!", type = 'paragraph'):
 				break
 		del cutoff[0]
 		# TRYNA FIGURE OUT HOW GIT WORKS
-		# CUTOFF IS EMPTY IN THE STRING 'QWERTYUIOPASDFGHJKLZXCVBNM qwertyuiopasdfghjklzxcvbnm' | BUG-FIXING NEEDED <----------------------------------------------------------------------------------------
+		# CUTOFF LIST IS EMPTY IN THE STRING 'QWERTYUIOPASDFGHJKLZXCVBNM qwertyuiopasdfghjklzxcvbnm' | BUG-FIXING NEEDED <----------------------------------------------------------------------------------------
 		while cutoff[-1] + os_length  < len(comb_lines[0]):
 			for idx, i in enumerate(sp_ind):
 				if cutoff[-1] + os_length < i:
